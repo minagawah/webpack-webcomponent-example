@@ -80,7 +80,7 @@ yarn add ramda
 <a name="3-examples"></a>
 ## 3. Web Components Examples
 
-### (1) <floating-particles>
+### (1) &lt;floating-particles&gt;
 
 Provides `<canvas>` with a number of floating particles.
 It has a `<slot name="title">` to which you can give its TITLE.
@@ -95,7 +95,7 @@ Basically, this component keeps watching 3 variables:
 There is another custom element called `<slightly-big-input>`,
 and the parent `app.js` keeps watching the value entered.
 
-### (2) <merely-nothing>
+### (2) &lt;merely-nothing&gt;
 
 It watches 2 variables:
 
@@ -113,7 +113,7 @@ Although this is totally against the idea of Web Components
 (since every component should be independent),
 I thought I should just demonstrate the case where a child depending on its parent.
 
-### (3) <slightly-big-input>
+### (3) &lt;slightly-big-input&gt;
 
 It takes no variables. Nor, does any fancy stuff.
 It just make `<input>` element slightly bigger.  
