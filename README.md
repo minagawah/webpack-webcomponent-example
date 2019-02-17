@@ -31,10 +31,10 @@ Web Components (v1 spec) is composed of 3 major technologies:
 
 
 **Custom Elements**  
-Let's you define your own element, like `<scotty-beam-me-up>`.
+Lets you define your own element, like `<scotty-beam-me-up>`.
 
 **Shadow DOM**  
-Let's you encapsulate styles (to, so called, `this.shadowRoot`)
+Lets you encapsulate styles (to, so called, `this.shadowRoot`)
 
 **HTML Template**  
 I'm not using this because I don't need to.
