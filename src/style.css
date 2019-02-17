@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, Helvetica, "Segoe UI", "YuGothic", "Yu Gothic Medium", Meiryo, "MS PGothic", sans-serif;
+}
+
+.bg-red { background-color: red; }
+.bg-white { background-color: white; }
+.bg-black { background-color: black; }
+.bg-peachpuff { background-color: peachpuff; }
+
+.mt-xs { margin-top: 0.1rem; }
+.mt-xs { margin-top: 0.3rem; }
+.mt-sm { margin-top: 0.4rem; }
+.mt-md { margin-top: 0.6rem; }
+.mt-lg { margin-top: 1rem; }
+.mt-xl { margin-top: 1.5rem; }
+
+.pa-xs { padding: 0.1rem; }
+.pa-sm { padding: 0.3rem; }
+.pa-md { padding: 0.4rem; }
+.pa-lg { padding: 0.6rem; }
+.pa-xl { padding: 1.5rem; }
+
+.cols {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.rows {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+
+.align-start { align-items: flex-start; }
+.align-center { align-items: center; }
+.align-end { align-items: flex-end; }
+
+.col-1 { flex: 1 1 calc(33.33333% - 1rem); }
+.col-2 { flex: 1 1 calc(66.66667% - 1rem); }
+.col-3 { flex: 1 1 calc(100% - 1rem); }
+
+#num {
+    text-align: center;
+}

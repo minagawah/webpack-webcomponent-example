@@ -1,0 +1,10 @@
+merely-nothing:not(:defined) {
+    opacity: 0;
+    transition: opacity 1.0s ease-in-out;
+}
+merely-nothing {
+    opacity: 100;
+    font-size: 1.2em;
+    color: #dedede;
+    border: solid 2px #ececec;
+}
