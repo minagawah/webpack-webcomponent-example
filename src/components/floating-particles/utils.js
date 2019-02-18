@@ -26,6 +26,8 @@ export const getDistance = (p1, p2) => {
   return Math.sqrt((dx * dx) + (dy * dy));
 };
 
+export const getSpeed = vel => (Math.abs(vel.x) + Math.abs(vel.y)) / 2;
+
 export const toDeg = a => a * (180 / Math.PI);
 export const toRad = a => a * (Math.PI / 180);
 
@@ -74,6 +76,7 @@ export default {
   lerp,
   clamp,
   getDistance,
+  getSpeed,
   toDeg,
   toRad,
   getAngle,

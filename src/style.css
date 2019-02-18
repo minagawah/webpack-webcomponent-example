@@ -43,6 +43,10 @@ body {
 .col-2 { flex: 1 1 calc(66.66667% - 1rem); }
 .col-3 { flex: 1 1 calc(100% - 1rem); }
 
+#logo {
+    width: 40vw;
+}
+
 #num {
     text-align: center;
 }

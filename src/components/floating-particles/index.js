@@ -3,7 +3,7 @@
  * 1) Write the codes in ES5, or
  * 2) Transpile independently
  */
-import { rand, clamp, withinRect, getDistance, getAngle } from './utils'
+import { rand, clamp, withinRect, getDistance, getSpeed, getAngle } from './utils'
 
 // -------------------------------------------
 // Custom HTMLElement Definitions
@@ -77,7 +77,7 @@ const createParticle = ({ ctx, index, width, height, size }) => {
   const draw = (dt) => {
     const angle = getAngle(dest, pos);
     const distance = getDistance(dest, pos);
-    const speed = (Math.abs(vel.x) + Math.abs(vel.y)) / 2;
+    const speed = getSpeed(vel);
 
     if (distance < 40) {
       dest = { x: rand(0, width), y: rand(0, height) };

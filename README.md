@@ -37,7 +37,7 @@ Lets you define your own element, like `<scotty-beam-me-up>`.
 Lets you encapsulate styles (to, so called, `this.shadowRoot`)
 
 **HTML Template**  
-I'm not using this because I don't need to.
+I do `createElement('template')`.
 
 Since these are still a proposed spec,
 we can't just write Web Components and expects browsers to understand what we write.
