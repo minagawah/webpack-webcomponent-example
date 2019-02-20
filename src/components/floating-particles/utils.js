@@ -47,28 +47,6 @@ export const withinRect = (p, rect) => (
 // Check if the given point falls within the arc's radius.
 export const withinArc = (p, a) => getDistance(p, a) <= a.radius;
 
-/**
- * @param {Function} [f] A function to debounce.
- * @param {number} [wait] Time to suppress the call.
- * @param {Object} [ctx] When you want to bind to a certain scope.
- */
-export const debounce = (f, wait, ctx = null) => {
-  let timeout = null;
-  let args = null;
-  const g = () => Reflect.apply(f, ctx, args);
-  return function (...o) {
-    ctx = ctx || this || {}; // Use the bound context (if there is one).
-    args = o;
-    if (timeout) {
-      clearTimeout(timeout);
-    }
-    else {
-      g();
-    }
-    timeout = setTimeout(g, wait);
-  };
-};
-
 export default {
   rand,
   randInt,
@@ -82,6 +60,5 @@ export default {
   getAngle,
   withinRange,
   withinRect,
-  withinArc,
-  debounce
+  withinArc
 }

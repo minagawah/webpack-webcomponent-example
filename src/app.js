@@ -2,6 +2,7 @@ import './style.css';
 import './components/merely-nothing';
 import './components/slightly-big-input';
 import './components/floating-particles';
+import debounce from 'debounce-ctx';
 
 const DEFAULT_NUM_FO_PARTICLES = 19;
 
@@ -9,23 +10,6 @@ const int = Math.trunc;
 const print = s => console.log(`[app] ${s}`);
 
 let floating;
-
-const debounce = (f, wait, ctx = null) => {
-  let timeout = null;
-  let args = null;
-  const g = () => Reflect.apply(f, ctx, args);
-  return function (...o) {
-    ctx = ctx || this || {}; // Use the bound context (if there is one).
-    args = o;
-    if (timeout) {
-      clearTimeout(timeout);
-    }
-    else {
-      g();
-    }
-    timeout = setTimeout(g, wait);
-  };
-};
 
 const reset = () => {
   if (floating) {
