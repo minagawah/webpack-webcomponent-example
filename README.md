@@ -74,7 +74,7 @@ but it is explained in one of the component examples we have.
 ```
 yarn add --dev babel-loader @babel/core @babel/preset-env eslint babel-eslint webpack webpack-cli style-loader css-loader postcss-loader autoprefixer file-loader html-loader html-webpack-plugin clean-webpack-plugin mini-css-extract-plugin copy-webpack-plugin webpack-manifest-plugin webpack-dev-server webpack-merge
 
-yarn add ramda
+yarn add ramda debounce-ctx
 ```
 
 <a name="3-examples"></a>
