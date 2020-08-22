@@ -14,7 +14,7 @@
     "Web Component",
     "webpack"
   ],
-  "author": "minagawah <minagawa@tokyo800.jp>",
+  "author": "minagawah <mina@tokyo800.jp>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.3.3",
