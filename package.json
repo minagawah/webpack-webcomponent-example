@@ -1,6 +1,6 @@
 {
   "name": "webpack-webcomponent-example",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Simple example for Webpack + Web Components",
   "scripts": {
@@ -15,7 +15,7 @@
     "webpack"
   ],
   "author": "Hiroki Minagawa <minagawa@tokyo800.jp>",
-  "license": "MIT",
+  "license": "(Unlicense OR MIT)",
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",

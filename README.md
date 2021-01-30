@@ -144,5 +144,8 @@ yarn run build
 <a name="5-license"></a>
 ## 5. License
 
-See [LICENSE](./LICENSE) for details.
+Dual-licensed under either of the followings.  
+Choose at your option.
 
+- The UNLICENSE ([LICENSE.UNLICENSE](LICENSE.UNLICENSE))
+- MIT license ([LICENSE.MIT](LICENSE.MIT))
